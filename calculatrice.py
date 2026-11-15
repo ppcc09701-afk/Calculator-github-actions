@@ -7,4 +7,4 @@ def division(a, b):
         raise ValueError("Division par zéro impossible")
     return a / b
 def soustraction(a, b):
-    return a + b
+    return a - b
