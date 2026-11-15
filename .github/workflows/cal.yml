@@ -16,3 +16,11 @@ jobs:
         run: echo "Bienvenue dans Pipeline CI"
       - name: Lister les fichiers
         run: ls -la
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Installer pytest
+        run: pip install pytest
+      - name: Lancer les tests
+        run: pytest
