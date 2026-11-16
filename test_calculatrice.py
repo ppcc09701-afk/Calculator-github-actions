@@ -13,5 +13,8 @@ def test_division():
         division(10, 0)
         
 
-def test_soustraction():
+ def test_soustraction():
     assert soustraction(5, 3) == 2
+
+ def test_multiplication():
+    assert soustraction(5, 3) == 15
